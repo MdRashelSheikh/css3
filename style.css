@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+    background: rgb(53, 16, 58);
+    width: 100%;
+    height: 50px;
+}
+
+.header ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top:10px;
+}
+.header ul li a:hover{
+    color: red;
+}
+
+.header ul li:last-child{
+    margin-right: 50px;
+
+}
+.header ul li a{
+    color: rgb(226, 118, 118);
+    font-size: 20px;
+    text-transform: uppercase;
+   
+}
+.logo h1{
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(21, 255, 0);
+    border-right: 2px solid rebeccapurple;
+}
+.div2 img{
+width: 100%;
+height: 85vh;
+}
+.div2 h2{
+color: saddlebrown;
+}
+.div3 p{
+    color: coral;
+}
+.div3 h3{
+    text-align: center;
+    color: rgb(216, 66, 12);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.contact{
+ text-align: center;
+}
+hr{
+    width: 300px;
+    color: red;
+margin-left: 530px;
+}
+p::first-letter{
+    font-size: 50px;
+}
+label{
+    text-transform: uppercase;
+    color: rgba(132, 139, 87, 0.699);
+}
+#name{
+ outline: none;
+}
